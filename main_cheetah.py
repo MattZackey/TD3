@@ -16,7 +16,6 @@ from tensordict import TensorDict
 from torchrl.data import TensorDictReplayBuffer, LazyMemmapStorage
 from itertools import count
 from Agent.TD3 import Agent_TD3
-from record import record_agent
 
 # Setup game
 env = gym.make('HalfCheetah-v4')
