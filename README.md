@@ -8,14 +8,14 @@ gradient algorithm (TD3)](https://proceedings.mlr.press/v80/fujimoto18a/fujimoto
   <div style="flex: 1; text-align: center;">
     <h3>Episode 100</h3>
     <div style="border: 1px solid black; padding: 5px; display: inline-block">
-      <img src="Cheetah_results/Random Agent.gif" alt="Image 1" style="max-width: 70%; width: 400px;">
+      <img src="Cheetah results/Random Agent.gif" alt="Image 1" style="max-width: 70%; width: 400px;">
     </div>
   </div>
 
   <div style="flex: 1; text-align: center;">
     <h3>Episode 500</h3>
     <div style="border: 1px solid black; padding: 5px;; display: inline-block">
-      <img src="Cheetah_results/Trained Agent.gif" alt="Image 2" style="max-width: 70%; width: 400px;">
+      <img src="Cheetah results/Trained Agent.gif" alt="Image 2" style="max-width: 70%; width: 400px;">
     </div>
   </div>
   
