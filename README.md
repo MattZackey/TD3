@@ -1,4 +1,4 @@
-# TD3
+# Twin Delayed Deep Deterministic policy gradient algorithm
 
 The following is the [Twin Delayed Deep Deterministic policy
 gradient algorithm (TD3)](https://proceedings.mlr.press/v80/fujimoto18a/fujimoto18a.pdf) applied to the Half Cheetah environment from MuJoCo.
