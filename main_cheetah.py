@@ -40,7 +40,7 @@ agent_cheetah = Agent_TD3(env = env,
 
 # Train agent
 score_train = []
-num_episodes = 10
+num_episodes = 1400
 num_random_samples = 5000
 reward_eval = []
 for i_episode in range(num_episodes):
