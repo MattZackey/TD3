@@ -16,6 +16,7 @@ from tensordict import TensorDict
 from torchrl.data import TensorDictReplayBuffer, LazyMemmapStorage
 from itertools import count
 from Agent.TD3 import Agent_TD3
+from record import record_agent
 
 # Setup game
 env = gym.make('HalfCheetah-v4')
@@ -38,11 +39,10 @@ agent_cheetah = Agent_TD3(env = env,
                           policy_noise = 0.2,
                           noise_clip = 0.5)
 
-# Train agent
 score_train = []
 num_episodes = 1400
-num_random_samples = 5000
-reward_eval = []
+num_random_samples = 1000
+reward_gif = []
 for i_episode in range(num_episodes):
     
     state,_ = env.reset()
@@ -79,3 +79,6 @@ for i_episode in range(num_episodes):
         if done:
             score_train.append(total_reward)
             break
+    
+    if (i_episode + 1) % 100 == 0:
+        reward_gif.append(record_agent('HalfCheetah-v4', agent_cheetah, num_iter = (i_episode+1), example_path = 'HalfCheetah results'))
