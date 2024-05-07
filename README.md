@@ -8,21 +8,21 @@ gradient algorithm (TD3)](https://proceedings.mlr.press/v80/fujimoto18a/fujimoto
 <div style="display: flex;">
 
   <div style="flex: 1; text-align: center;">
-    <h3>Random policy</h3>
+    <h3>Episode 100</h3>
     <div style="border: 1px solid black; padding: 5px; display: inline-block">
       <img src="Walker results/run100.gif" alt="Image 1" style="max-width: 70%; width: 400px;">
     </div>
   </div>
 
   <div style="flex: 1; text-align: center;">
-    <h3>Trained agent</h3>
+    <h3>Episode 500</h3>
     <div style="border: 1px solid black; padding: 5px;; display: inline-block">
       <img src="Walker results/run500.gif" alt="Image 2" style="max-width: 70%; width: 400px;">
     </div>
   </div>
 
    <div style="flex: 1; text-align: center;">
-    <h3>Trained agent</h3>
+    <h3>Episode 5000</h3>
     <div style="border: 1px solid black; padding: 5px;; display: inline-block">
       <img src="Walker results/run5000.gif" alt="Image 2" style="max-width: 70%; width: 400px;">
     </div>
