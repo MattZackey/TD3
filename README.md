@@ -29,7 +29,6 @@ Gradient algorithm (TD3)](https://proceedings.mlr.press/v80/fujimoto18a/fujimoto
   </div>
 
 
-  \\
   The following figure shows the total reward the agent achieved for each espisode of training.
 
   ![Results](https://github.com/MattZackey/TD3/blob/main/Walker%20results/Walker%20results.png?raw=true)
